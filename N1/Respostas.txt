@@ -1,0 +1,23 @@
+1. O que é uma activity? Exemplifique
+Activity é um componente da aplicação android que permite a interação do usuário com a aplicação
+na forma de uma tela.
+Por exemplo, a tela pode conter campos de texto para entrada de dados como nome ou login,
+assim como botões que executam alguma função.
+
+2. O que é uma intent? Exemplifique
+Intent é uma descição de uma operação a ser executada. Um dos usos mais comuns de intent é para chamar
+outra activity, o equivalente a trocar de tela.
+
+3. Explique a ligaçào entre o arquivo .xml e .java. Exemplifique
+O arquivo .xml guarda informações sobre o conteúdo apresentado da activity trabalhada no projeto,
+enquanto o arquivo .java contém as funcionalidades daquela página, como intents.
+Por exemplo, o arquivo .xml pode descrever alguns campos de texto, identificados de forma única pelo ID,
+e o arquivo .java pode resgatar os dados desses campos - .findViewById() - e executar operações, como
+intents, utilizando essas informações.
+
+4. Para que serve o arquivo AndroidManifest.xml?
+O arquivo AndroidManifest.xml descreve algumas informações essenciais da aplicação. Algumas 
+informações necessárias são: o nome do pacote da aplicação (app package), os componentes
+(incluindo activities, services, broadcast receivers e content providers), permissões, e
+e requerimentos de hardware para funcionamento da aplicação.
+O Android Studio já gera o arquivo na criação do projeto.
